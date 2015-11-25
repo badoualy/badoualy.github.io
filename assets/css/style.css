@@ -10,7 +10,7 @@
 
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
-	color: #666;
+	color: #873c11;
 	overflow-x: hidden;
 }
 
@@ -845,7 +845,7 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-	padding-top: 10%;
+	padding-top: 5%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
