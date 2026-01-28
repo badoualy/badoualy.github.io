@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.quiet.cleanmanager",
+      "sha256_cert_fingerprints": [
+        "FE:17:91:2A:D8:C5:1C:DC:D3:9E:25:F0:BF:DE:5F:67:A0:82:74:C7:56:83:2C:5C:70:E9:1C:F7:D5:84:2F:92",
+        "15:8E:AB:97:79:B7:5B:D2:61:39:73:43:67:E0:25:78:A9:A2:B4:54:A1:44:B5:AF:03:C4:35:47:8F:3A:A7:A5",
+        "04:99:49:D9:33:90:4C:78:F2:9F:EC:F0:F4:C5:BB:03:5F:1E:42:71:E2:EE:91:B6:83:41:91:1A:34:A2:B0:EE"
+      ]
+    }
+  }
+]
