@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splitzy — Privacy Policy</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --muted: #5a5a5a;
+            --accent: #2f6feb;
+            --border: #e5e5e5;
+            --code-bg: #f5f5f7;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111214;
+                --text: #ececec;
+                --muted: #a0a0a0;
+                --accent: #6aa1ff;
+                --border: #2a2c30;
+                --code-bg: #1c1d20;
+            }
+        }
+        * { box-sizing: border-box; }
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        main {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 48px 24px 96px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin: 0 0 8px;
+            letter-spacing: -0.02em;
+        }
+        h2 {
+            font-size: 1.25rem;
+            margin: 40px 0 12px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+        }
+        h3 {
+            font-size: 1.05rem;
+            margin: 24px 0 8px;
+        }
+        p, ul, ol { margin: 0 0 14px; }
+        ul, ol { padding-left: 22px; }
+        li { margin-bottom: 6px; }
+        .meta {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 32px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        code, kbd {
+            background: var(--code-bg);
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.92em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0 20px;
+            font-size: 0.95rem;
+        }
+        th, td {
+            border: 1px solid var(--border);
+            padding: 8px 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: var(--code-bg);
+            font-weight: 600;
+        }
+        .callout {
+            background: var(--code-bg);
+            border-left: 3px solid var(--accent);
+            padding: 12px 16px;
+            margin: 16px 0;
+            border-radius: 4px;
+        }
+        footer {
+            margin-top: 56px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Splitzy — Privacy Policy</h1>
+    <p class="meta">
+        Effective date: <strong>26 May 2026</strong> &middot; Last updated: 26 May 2026
+    </p>
+
+    <p>
+        This Privacy Policy describes how <strong>Splitzy</strong> (the &ldquo;App&rdquo;, &ldquo;we&rdquo;,
+        &ldquo;us&rdquo;) collects, uses, stores and shares your personal data when you use the App on Android
+        or any related services. The App is published by <strong>Yannick Badoual</strong>, acting as an
+        individual developer based in <strong>France</strong>, who is the data controller within the meaning of
+        the EU General Data Protection Regulation (&ldquo;GDPR&rdquo;).
+    </p>
+
+    <div class="callout">
+        <strong>Quick summary.</strong> Splitzy lets you create trips, add members, log expenses and scan
+        receipts to split costs with friends. To make this work, we store your Google account email, profile
+        picture and the trips you create on Google&rsquo;s Firebase platform, and we send your bill photos to
+        Google&rsquo;s Gemini AI to extract amounts and items. We do not sell your data, we do not show ads,
+        and you can delete your account at any time.
+    </div>
+
+    <h2>1. Who we are &amp; how to contact us</h2>
+    <p>
+        Data controller: <strong>Yannick Badoual</strong>, individual developer, France.<br>
+        Contact for any privacy request (access, deletion, etc.):
+        <a href="mailto:splitzy.app.support@gmail.com">splitzy.app.support@gmail.com</a>
+    </p>
+    <p>
+        If you live in the EU/EEA, you can also lodge a complaint with your local supervisory authority. In
+        France, this is the <em>Commission Nationale de l&rsquo;Informatique et des Libertés</em>
+        (CNIL — <a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a>).
+    </p>
+
+    <h2>2. What data we collect</h2>
+
+    <h3>2.1 Account data (from Google Sign-In)</h3>
+    <p>
+        You sign in to Splitzy with your Google account. Through this sign-in, we receive from Google and
+        store on Firebase Authentication:
+    </p>
+    <ul>
+        <li>your email address;</li>
+        <li>your display name;</li>
+        <li>your profile picture URL;</li>
+        <li>a unique Google/Firebase user identifier.</li>
+    </ul>
+    <p>
+        We do <em>not</em> receive your Google password, contacts, calendar, or any other Google data beyond
+        the basic profile listed above.
+    </p>
+
+    <h3>2.2 Trip and expense data</h3>
+    <p>
+        When you use the App, you create and store content such as:
+    </p>
+    <ul>
+        <li>trip names, descriptions and currency;</li>
+        <li>members you add to a trip (their display name and, where applicable, their Splitzy user ID);</li>
+        <li>expenses (amount, category, date, who paid, who participates, optional notes);</li>
+        <li>settlements between members;</li>
+        <li>scanned receipts/bills (image files) — see section 2.3.</li>
+    </ul>
+
+    <h3>2.3 Bill / receipt images</h3>
+    <p>
+        When you scan a bill, the image is:
+    </p>
+    <ol>
+        <li>uploaded to <strong>Google Firebase Cloud Storage</strong> (region <code>us-east1</code>, United States);
+        </li>
+        <li>sent to the <strong>Google Gemini API</strong> (Google AI) so the model can extract the total,
+            currency, line items and merchant from the photo;
+        </li>
+        <li>kept in storage for approximately <strong>90 days while the trip is active</strong>, after which
+            it is automatically deleted. Images linked to a trip are also deleted when the trip itself is
+            deleted, or when you delete your account.
+        </li>
+    </ol>
+
+    <h3>2.4 Push notifications</h3>
+    <p>
+        If you allow notifications, we register a Firebase Cloud Messaging (FCM) device token so we can send
+        you trip-related notifications (e.g. a new expense was added, someone settled with you). The token is
+        not used for advertising.
+    </p>
+
+    <h3>2.5 Crash and diagnostic data (Firebase Crashlytics)</h3>
+    <p>
+        We use <strong>Firebase Crashlytics</strong> to be notified when the App crashes or hits a serious
+        error, so we can fix it. When a crash happens, Crashlytics automatically collects and sends to
+        Google&rsquo;s servers:
+    </p>
+    <ul>
+        <li>the <strong>crash stack trace</strong> and the thread state at the moment of the crash;</li>
+        <li><strong>device information</strong>: brand, model, OS version, available RAM/storage, orientation,
+            whether the device is rooted;
+        </li>
+        <li><strong>app information</strong>: app version, build number, time since launch;</li>
+        <li>a Firebase-generated <strong>Crashlytics Installation UUID</strong> (a per-install identifier,
+            not your name or email), which lets us count how many distinct users are affected by a given
+            crash;
+        </li>
+        <li>your IP address, used <em>transiently</em> by Google to derive a coarse country/region and then
+            discarded;
+        </li>
+        <li>optional <strong>breadcrumb logs</strong> we add in code (e.g. &ldquo;opened trip details&rdquo;,
+            &ldquo;tapped scan bill&rdquo;) to help us reproduce the crash. These logs do <em>not</em>
+            include the content of your expenses, trip names, or other personal data.
+        </li>
+    </ul>
+    <p>
+        Crashlytics data is used solely for stability monitoring and debugging. It is <strong>not</strong>
+        used for advertising, profiling, or any other purpose.
+    </p>
+
+    <h3>2.6 Subscription data (Google Play Billing &amp; RevenueCat)</h3>
+    <p>
+        Splitzy offers a freemium model with optional paid subscriptions that unlock higher limits (more
+        trips, more bill scans, more expenses per trip, etc.). Subscriptions are billed by
+        <strong>Google Play Billing</strong> and managed on our side by <strong>RevenueCat</strong>, a
+        subscription-management platform.
+    </p>
+    <p>
+        For this purpose, the following data is processed:
+    </p>
+    <ul>
+        <li>by <strong>Google Play</strong>: your purchase, payment method and billing history — we do not
+            see your card or bank details, only that you have an active entitlement;
+        </li>
+        <li>by <strong>RevenueCat</strong>: your Splitzy user ID, the purchase receipt issued by Google Play,
+            the resulting subscription status (active, paused, expired), country, app version and platform.
+            RevenueCat acts as our <strong>data processor</strong> under a Data Processing Addendum and uses
+            this data only to manage entitlements on our behalf;
+        </li>
+        <li>by us: the resulting subscription status, mirrored in Firestore so the App can enforce limits
+            offline.
+        </li>
+    </ul>
+
+    <h3>2.7 Product analytics (Firebase Analytics)</h3>
+    <p>
+        We may use <strong>Firebase Analytics</strong> to log a limited set of anonymised events — for
+        example <code>trip_created</code>, <code>expense_added</code>, <code>bill_scanned</code>,
+        <code>subscription_started</code> — together with non-identifying context (app version, OS version,
+        country derived from IP, language). This helps us understand which features are used and where the
+        App can be improved.
+    </p>
+    <p>
+        <strong>Where applicable law requires consent</strong> before any non-essential tracker is
+        activated — in particular Article 82 of the French <em>Loi Informatique et Libertés</em>
+        (transposing the ePrivacy Directive) and equivalent rules in other EU/EEA countries, the UK and
+        Switzerland — we ask for your consent on first launch, and Firebase Analytics stays
+        <strong>disabled by default</strong> until you opt in. You can change your choice at any time from
+        <em>Settings &rarr; Privacy</em>. If you do not consent, no analytics events are sent.
+    </p>
+    <p>
+        We may also log a small number of events <strong>without your consent where this is strictly
+        necessary to comply with a legal obligation</strong> we are subject to (Art. 6(1)(c) GDPR) — for
+        example to keep an auditable record of subscription transactions for tax purposes, to detect and
+        document fraud or abuse, or to be able to answer a lawful request from a competent authority.
+        These events are limited to what is necessary for that purpose and are not used for product
+        analytics.
+    </p>
+    <p>
+        Firebase Analytics is <strong>never</strong> used for advertising, ad targeting, profiling, or
+        sharing data with third parties beyond Google as our processor.
+    </p>
+
+    <h3>2.8 If someone else added you to a Splitzy trip</h3>
+    <p>
+        Splitzy lets users add other people to a trip — for example to record that &ldquo;Alice paid 60€
+        for the group&rdquo; — even if those people don&rsquo;t have a Splitzy account. The data that ends
+        up in Splitzy in that case is limited to what the inviter typed in (typically a name, sometimes a
+        contact identifier such as an email).
+    </p>
+    <p>
+        In this scenario, the person who added you is the data controller for the information they entered
+        about you; we act as their service provider. If you are concerned about the way your information
+        appears in a trip, you can:
+    </p>
+    <ul>
+        <li>contact the person who added you and ask them to remove or correct the entry;</li>
+        <li>write to us at <a href="mailto:splitzy.app.support@gmail.com">splitzy.app.support@gmail.com</a> — we will
+            inform you of who
+            added you (where we can identify them) and, in line with our obligations under Articles 12 and
+            14 GDPR, help you exercise your rights vis-à-vis that person.
+        </li>
+    </ul>
+
+    <h3>2.9 Data we do <em>not</em> collect or share</h3>
+    <ul>
+        <li>We do not access your phone contacts, calendar, microphone or precise location.</li>
+        <li>We do not embed third-party advertising or attribution SDKs.</li>
+        <li>We do not sell, rent or trade your personal data.</li>
+        <li>We do <strong>not share your data with any third party</strong> other than the processors listed
+            in section 4 (Google for Firebase and Gemini, Google Play for billing, and RevenueCat for
+            subscription management), and only to the extent strictly needed for them to provide their
+            service to us.
+        </li>
+    </ul>
+
+    <h2>3. Why we use your data (purposes &amp; legal bases)</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Purpose</th>
+            <th>Data used</th>
+            <th>Legal basis (GDPR Art. 6)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Authenticate you and create your account</td>
+            <td>Google account info, user ID</td>
+            <td>Performance of a contract (Art. 6(1)(b))</td>
+        </tr>
+        <tr>
+            <td>Provide the core service (trips, expenses, balances, settle-up)</td>
+            <td>Trip and expense data</td>
+            <td>Performance of a contract (Art. 6(1)(b))</td>
+        </tr>
+        <tr>
+            <td>Analyse bill images to pre-fill expenses</td>
+            <td>Receipt image, extracted text</td>
+            <td>Performance of a contract (Art. 6(1)(b)) — feature you actively trigger</td>
+        </tr>
+        <tr>
+            <td>Send trip notifications</td>
+            <td>FCM token, trip event</td>
+            <td>Performance of a contract (Art. 6(1)(b)) and your OS-level consent</td>
+        </tr>
+        <tr>
+            <td>Fix bugs, prevent abuse, secure the service</td>
+            <td>Crash logs, diagnostic data</td>
+            <td>Legitimate interest (Art. 6(1)(f)) — keeping the App reliable and secure</td>
+        </tr>
+        <tr>
+            <td>Understand how the App is used (Firebase Analytics)</td>
+            <td>Anonymised in-app events, app/OS version, country</td>
+            <td>Your <strong>consent</strong> (Art. 6(1)(a) GDPR + Art. 82 LIL), collected on first
+                launch in the EU/EEA, UK and Switzerland
+            </td>
+        </tr>
+        <tr>
+            <td>Comply with a legal obligation that requires logging (e.g. transaction records, fraud
+                reporting, lawful authority requests)
+            </td>
+            <td>The minimum events strictly necessary for the obligation</td>
+            <td>Legal obligation (Art. 6(1)(c))</td>
+        </tr>
+        <tr>
+            <td>Manage subscriptions and entitlements</td>
+            <td>Subscription status from Google Play</td>
+            <td>Performance of a contract (Art. 6(1)(b))</td>
+        </tr>
+        <tr>
+            <td>Prevent abuse of free trials and freemium limits (e.g. someone deleting and recreating
+                accounts to keep restarting the trial)
+            </td>
+            <td>A one-way salted hash of your email address only</td>
+            <td>Legitimate interest (Art. 6(1)(f)) — protecting the App&rsquo;s economic viability
+                against abuse, recognised by Recital 47 GDPR
+            </td>
+        </tr>
+        <tr>
+            <td>Comply with legal obligations (e.g. tax, lawful requests)</td>
+            <td>Whatever is strictly required</td>
+            <td>Legal obligation (Art. 6(1)(c))</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>4. Who has access to your data (sub-processors)</h2>
+    <p>
+        We rely on the following processors. They act on our documented instructions, only for the purposes
+        described below, and are bound by data-protection agreements (DPAs):
+    </p>
+    <ul>
+        <li>
+            <strong>Google Ireland Ltd. / Google LLC</strong> — Firebase Authentication, Cloud Firestore
+            (region <code>europe-west</code>), Cloud Storage (region <code>us-east1</code>), Cloud Messaging,
+            Crashlytics, Firebase Analytics (only when you have consented, or where logging is required by
+            law), and the <strong>Gemini API</strong>.
+        </li>
+        <li>
+            <strong>Google Play Billing (Google LLC)</strong> — billing and payment processing when you
+            purchase a subscription.
+        </li>
+        <li>
+            <strong>RevenueCat, Inc.</strong> (United States) — subscription management: validating receipts,
+            keeping track of your entitlement, and notifying our backend when your subscription state
+            changes. RevenueCat does not receive your name, email, profile picture, trips or bill images.
+        </li>
+    </ul>
+    <p>
+        Apart from these processors, <strong>we do not share your personal data with any third party</strong>,
+        except where strictly required by law (e.g. a valid request from a competent authority) or to
+        establish, exercise or defend legal claims.
+    </p>
+
+    <h2>5. Where your data is stored (international transfers)</h2>
+    <p>
+        Splitzy stores most documents (trips, expenses, members, balances) on Cloud Firestore in the
+        <strong>European Union</strong> (<code>europe-west</code>). Bill/receipt images are stored on Cloud
+        Storage in the <strong>United States</strong> (<code>us-east1</code>), and bill images are processed
+        by the Gemini API on Google&rsquo;s global infrastructure, which may include the United States.
+        Subscription receipts and entitlement records processed by <strong>RevenueCat</strong> are also
+        hosted in the <strong>United States</strong>.
+    </p>
+    <p>
+        These transfers outside the EEA rely on the <strong>European Commission&rsquo;s Standard Contractual
+        Clauses</strong> and, where applicable, on Google&rsquo;s certification under the
+        <strong>EU-U.S. Data Privacy Framework</strong>, which together provide appropriate safeguards under
+        Articles 45–46 GDPR.
+    </p>
+
+    <h2>6. How long we keep your data</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Category</th>
+            <th>Retention</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Account profile (email, name, picture)</td>
+            <td>Until you delete your account.</td>
+        </tr>
+        <tr>
+            <td>Trips, expenses, balances, settlements</td>
+            <td>Until you delete the trip or your account. After account deletion, residual copies in
+                backups are purged within 30 days.
+            </td>
+        </tr>
+        <tr>
+            <td>Bill / receipt images</td>
+            <td>Approximately <strong>90 days</strong> from upload while the trip is active, then
+                automatically deleted. Sooner if you delete the expense, the trip, or your account.
+            </td>
+        </tr>
+        <tr>
+            <td>Push notification tokens</td>
+            <td>Until you sign out or uninstall the App.</td>
+        </tr>
+        <tr>
+            <td>Crash logs and diagnostic data (Crashlytics)</td>
+            <td>Up to <strong>90 days</strong> for individual crash reports; aggregated, non-identifying
+                stability metrics may be kept longer for trend analysis.
+            </td>
+        </tr>
+        <tr>
+            <td>Firebase Analytics events (when consented, or when retained under a legal obligation)</td>
+            <td>Up to <strong>14 months</strong> for user-level events (Google&rsquo;s default for
+                EU-configured projects); aggregated, non-identifying reports may be kept longer. Events
+                retained on a legal-obligation basis are kept for the period required by that obligation
+                (typically up to 10 years for tax-related records) and then erased.
+            </td>
+        </tr>
+        <tr>
+            <td>Subscription entitlement data on RevenueCat</td>
+            <td>For as long as you have an active or recently expired subscription, plus the period
+                required by RevenueCat&rsquo;s own retention policy and any tax-law obligations.
+            </td>
+        </tr>
+        <tr>
+            <td>Subscription / billing records</td>
+            <td>Up to 10 years where French/EU tax or accounting law requires it.</td>
+        </tr>
+        <tr>
+            <td>Anti-abuse record (salted hash of your email)</td>
+            <td>Up to <strong>12 months</strong> after you delete your account, then automatically
+                erased. We never keep the plaintext email after deletion — only an irreversible hash that
+                lets us detect if the same email tries to claim a new free trial within that window.
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>7. About Gemini / Google AI processing</h2>
+    <p>
+        When you scan a bill, the image is sent to the Google Gemini API (Google AI) so the model can read
+        the receipt and return structured data (total, currency, line items, merchant). According to
+        Google&rsquo;s terms applicable to paid Gemini API usage, prompts and responses sent via the paid
+        API are <em>not</em> used to train Google&rsquo;s general-purpose models. Google may, however, retain
+        the data for a limited period for abuse-prevention purposes. We do not send any additional personal
+        data (such as your name or email) with the image.
+    </p>
+    <p>
+        AI extraction is provided as a convenience to help you fill expenses faster. <strong>You should
+        always review the extracted amount before saving</strong> — see also the Terms of Use.
+    </p>
+
+    <h2>8. Your rights</h2>
+    <p>
+        Under the GDPR and French <em>Loi Informatique et Libertés</em>, you have the right to:
+    </p>
+    <ul>
+        <li>access the personal data we hold about you;</li>
+        <li>rectify inaccurate or incomplete data;</li>
+        <li>erase your data (&ldquo;right to be forgotten&rdquo;);</li>
+        <li>restrict or object to certain processing, including profiling;</li>
+        <li>data portability — receive your data in a structured, commonly-used and machine-readable
+            format (we provide a JSON export on request, sent to your registered email address);
+        </li>
+        <li>withdraw any consent you have given, at any time;</li>
+        <li>define directives on what happens to your data after your death;</li>
+        <li>lodge a complaint with the CNIL or another supervisory authority.</li>
+    </ul>
+    <p>
+        To exercise any of these rights, contact us at <a href="mailto:splitzy.app.support@gmail.com">splitzy.app.support@gmail.com</a>.
+    </p>
+
+    <h3>8.1 Deleting your account from the App</h3>
+    <p>
+        The simplest way to exercise your right to erasure is directly from the App:
+    </p>
+    <ol>
+        <li>open Splitzy and go to <strong>Settings</strong>;</li>
+        <li>tap <strong>Delete my account</strong>;</li>
+        <li>confirm the action.</li>
+    </ol>
+    <p>
+        Deletion is immediate and irreversible. It removes:
+    </p>
+    <ul>
+        <li>your profile (email, name, profile picture, user ID);</li>
+        <li>the trips you own, including expenses, members, balances and uploaded bill images;</li>
+        <li>your FCM push notification token.</li>
+    </ul>
+    <p>
+        Trips you are <em>only a member of</em> (not the owner) remain available to the other members, but
+        your participation is anonymised so that historical balances stay correct.
+    </p>
+
+    <h3>8.2 What we keep after deletion, and why</h3>
+    <p>
+        Even after you delete your account, we retain two limited items:
+    </p>
+    <ul>
+        <li>a <strong>salted, one-way hash</strong> (SHA-256) of your email address, for up to
+            <strong>12 months</strong>, solely to detect abuse of the free trial and freemium limits
+            (Art. 6(1)(f) GDPR, legitimate interest — see also Recital 47);
+        </li>
+        <li>any <strong>billing records</strong> we are required to keep under French/EU tax and accounting
+            law (typically up to 10 years).
+        </li>
+    </ul>
+    <p>
+        The hash is irreversible (the salt is stored only on our server and is not derivable from the
+        hash) and is not used for marketing, analytics or any purpose other than anti-abuse.
+    </p>
+    <p>
+        <strong>How the hash is used at sign-up.</strong> When a new account is created, we hash the
+        sign-up email with the same server-side salt and check whether that hash matches one of the
+        hashes we kept. If it does, we flag the new account as <em>&ldquo;restored&rdquo;</em>, which
+        means the App treats the free tier (number of trips, bill scans, expenses, etc.) as already
+        consumed. The user can still use the App, but they cannot start a new free trial or claim a
+        fresh freemium allowance. We do <strong>not</strong> recover any data from the previous account
+        — your trips, expenses and bill images remain permanently deleted. After the 12-month window
+        expires, the hash is removed and a new sign-up with the same email starts with a fresh free
+        tier.
+    </p>
+    <p>
+        You can object to this processing at any time by writing to
+        <a href="mailto:splitzy.app.support@gmail.com">splitzy.app.support@gmail.com</a>; we will weigh
+        your objection against the anti-abuse interest as required by Art. 21 GDPR.
+    </p>
+
+    <h2>9. Security &amp; data breaches</h2>
+    <p>
+        We rely on Google Firebase&rsquo;s infrastructure, which provides encryption in transit (TLS) and at
+        rest. Access to Firestore and Cloud Storage is controlled by per-user security rules so that you can
+        only read or write trips you are a member of. We restrict administrative access to data to what is
+        strictly necessary to operate and troubleshoot the App.
+    </p>
+    <p>
+        Despite these measures, no system is 100% secure. In the event of a personal data breach likely to
+        result in a risk to your rights and freedoms, we will notify the CNIL within <strong>72 hours</strong>
+        of becoming aware of it (Article 33 GDPR). If the breach is likely to result in a <em>high</em>
+        risk, we will also notify you directly without undue delay (Article 34 GDPR), describing the nature
+        of the breach, its likely consequences, and the measures taken or proposed to address it.
+    </p>
+
+    <h2>10. Children</h2>
+    <p>
+        Splitzy is not directed to children. You must be at least <strong>16 years old</strong> to create an
+        account, or older if your country requires a higher age of digital consent. If we learn that we have
+        collected data from a child below that age without parental consent, we will delete it.
+    </p>
+
+    <h2>11. Changes to this Policy</h2>
+    <p>
+        We may update this Privacy Policy from time to time. Material changes will be highlighted in the App
+        before they take effect. The &ldquo;Effective date&rdquo; at the top of this page always reflects the
+        latest version.
+    </p>
+
+    <h2>12. Contact</h2>
+    <p>
+        Questions or requests? Email
+        <a href="mailto:splitzy.app.support@gmail.com">splitzy.app.support@gmail.com</a>.
+    </p>
+
+    <footer>
+        &copy; 2026 Yannick Badoual. Splitzy is an independent project and is not affiliated with Google
+        or any other third party mentioned in this Policy.
+    </footer>
+</main>
+</body>
+</html>

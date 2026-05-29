@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splitzy — Terms of Use</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --muted: #5a5a5a;
+            --accent: #2f6feb;
+            --border: #e5e5e5;
+            --code-bg: #f5f5f7;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111214;
+                --text: #ececec;
+                --muted: #a0a0a0;
+                --accent: #6aa1ff;
+                --border: #2a2c30;
+                --code-bg: #1c1d20;
+            }
+        }
+        * { box-sizing: border-box; }
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        main {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 48px 24px 96px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin: 0 0 8px;
+            letter-spacing: -0.02em;
+        }
+        h2 {
+            font-size: 1.25rem;
+            margin: 40px 0 12px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+        }
+        h3 {
+            font-size: 1.05rem;
+            margin: 24px 0 8px;
+        }
+        p, ul, ol { margin: 0 0 14px; }
+        ul, ol { padding-left: 22px; }
+        li { margin-bottom: 6px; }
+        .meta {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 32px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        code, kbd {
+            background: var(--code-bg);
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.92em;
+        }
+        .callout {
+            background: var(--code-bg);
+            border-left: 3px solid var(--accent);
+            padding: 12px 16px;
+            margin: 16px 0;
+            border-radius: 4px;
+        }
+        .warn {
+            background: var(--code-bg);
+            border-left: 3px solid #d9822b;
+            padding: 12px 16px;
+            margin: 16px 0;
+            border-radius: 4px;
+        }
+        footer {
+            margin-top: 56px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Splitzy — Terms of Use</h1>
+    <p class="meta">
+        Effective date: <strong>26 May 2026</strong> &middot; Last updated: 26 May 2026
+    </p>
+
+    <p>
+        These Terms of Use (&ldquo;<strong>Terms</strong>&rdquo;) form a binding agreement between you
+        (&ldquo;<strong>you</strong>&rdquo;, &ldquo;<strong>user</strong>&rdquo;) and
+        <strong>Yannick Badoual</strong>, individual developer based in France
+        (&ldquo;<strong>we</strong>&rdquo;, &ldquo;<strong>us</strong>&rdquo;, the
+        &ldquo;<strong>Publisher</strong>&rdquo;), regarding your use of the <strong>Splitzy</strong> mobile
+        application and any related services (together, the &ldquo;<strong>App</strong>&rdquo;).
+    </p>
+    <p>
+        By installing, signing into, or using Splitzy, you accept these Terms. If you do not accept them,
+        please do not use the App.
+    </p>
+
+    <div class="callout">
+        <strong>Plain-language summary.</strong> Splitzy helps groups of people split expenses on trips. You
+        sign in with Google, create trips, add expenses, and optionally scan bills with the help of an AI.
+        You&rsquo;re responsible for the data you enter and for double-checking AI-extracted amounts. Some
+        features are free, others require a subscription. We provide the App as-is and do our best to keep
+        it running, but we&rsquo;re not a bank or a payment service.
+    </div>
+
+    <h2>1. Eligibility</h2>
+    <p>
+        You must be at least <strong>16 years old</strong> (or the higher age of digital consent applicable
+        in your country) and legally able to enter into a contract to use Splitzy. By using the App, you
+        confirm that this is the case.
+    </p>
+
+    <h2>2. Your account</h2>
+    <p>
+        Splitzy requires you to sign in with a <strong>Google account</strong>. We use Google Sign-In via
+        Firebase Authentication to create your Splitzy account. You are responsible for keeping the
+        underlying Google account secure. You must not share your account, impersonate another person, or
+        create accounts on behalf of someone else without their authorisation.
+    </p>
+    <p>
+        You can delete your account at any time directly from the App: open <strong>Settings</strong>, tap
+        <strong>Delete my account</strong>, and confirm. Deletion is immediate and removes your profile, the
+        trips you own, their expenses and bill images, and your push-notification token, subject to the
+        retention rules described in our <a href="privacy-policy.html">Privacy Policy</a>.
+    </p>
+    <p>
+        To prevent abuse of free trials, we keep a one-way salted hash of your email address for up to
+        12 months after deletion. We never keep your email in readable form after deletion. See the
+        Privacy Policy for details.
+    </p>
+
+    <h2>3. What Splitzy does</h2>
+    <p>
+        Splitzy lets you:
+    </p>
+    <ul>
+        <li>create trips and invite members;</li>
+        <li>log expenses with categories, dates, payer and participants;</li>
+        <li>view computed balances and suggested settlements;</li>
+        <li>scan a paper or digital receipt, which is sent to the Google Gemini AI to pre-fill the expense
+            form;
+        </li>
+        <li>receive push notifications about trip activity.</li>
+    </ul>
+    <p>
+        Splitzy is a <strong>calculation and record-keeping tool</strong>. It does <strong>not</strong>
+        move money, hold funds, process payments between users, or act as a payment institution. Settling
+        amounts between members happens outside the App, by whatever means you choose.
+    </p>
+    <p>
+        Balances and settlement suggestions displayed by Splitzy are <strong>informational only</strong>.
+        They do not constitute financial, accounting, tax or legal advice and should not be relied upon for
+        official purposes. You remain solely responsible for verifying amounts, splitting rules and any
+        downstream consequences (e.g. reimbursements between members, tax declarations). Splitzy is not
+        liable for disputes between trip members regarding who owes what.
+    </p>
+
+    <h2>4. Subscriptions, freemium &amp; free limits</h2>
+
+    <h3>4.1 Freemium model</h3>
+    <p>
+        Splitzy follows a freemium model:
+    </p>
+    <ul>
+        <li>The <strong>free tier</strong> gives you access to core features within certain limits — for
+            example, a maximum number of active trips, a maximum number of bill scans per period, and a
+            maximum number of expenses per trip. The exact limits are shown in the App and may evolve.
+        </li>
+        <li>A <strong>paid subscription</strong> removes or increases these limits and may unlock additional
+            features.
+        </li>
+    </ul>
+
+    <h3>4.2 Billing</h3>
+    <p>
+        Subscriptions are sold and billed through <strong>Google Play Billing</strong> and are subject to
+        Google&rsquo;s terms in addition to these Terms. We use <strong>RevenueCat</strong> as a technical
+        provider to validate purchase receipts and manage your entitlement on our behalf. We never see your
+        payment-card details. Pricing (including all applicable taxes) and the billing period are displayed
+        in the App before you confirm purchase, in accordance with Articles L.221-5 and L.221-11 of the
+        French <em>Code de la consommation</em>.
+    </p>
+
+    <h3>4.3 Automatic renewal</h3>
+    <p>
+        Unless you cancel before the end of the current billing period, your subscription
+        <strong>renews automatically</strong> for a new period of the same duration at the then-current
+        price. The renewal price will not exceed the price you accepted on subscription unless we have
+        notified you of a change at least 30 days in advance and you have not cancelled in the meantime.
+        For any subscription with an initial duration of 12 months or more, we will remind you of the
+        upcoming renewal at least <strong>one month</strong> before it occurs, in accordance with
+        Article L.215-1 of the French <em>Code de la consommation</em> (&ldquo;loi Chatel&rdquo;).
+    </p>
+
+    <h3>4.4 How to cancel</h3>
+    <p>
+        You can cancel your subscription at any time, with effect at the end of the current billing
+        period, from <strong>Google Play &rarr; Subscriptions</strong> or from the
+        <strong>&ldquo;Manage subscription&rdquo;</strong> link in Splitzy&rsquo;s settings, which opens
+        the same Google Play flow. We rely on this flow so that cancelling is at least as easy as
+        subscribing, as required by Article L.215-1-1 of the French <em>Code de la consommation</em>
+        (the &ldquo;résiliation en 3 clics&rdquo; rule). You will keep access to paid features until the
+        end of the period you already paid for.
+    </p>
+
+    <h3>4.5 Right of withdrawal &amp; refunds</h3>
+    <p>
+        As a consumer residing in the EU/EEA you normally have <strong>14 days</strong> from the day after
+        purchase to withdraw from a distance contract, free of charge, under Articles L.221-18 et seq. of
+        the French <em>Code de la consommation</em>. Because Splitzy is a digital service that gives you
+        access to premium features immediately, by clicking
+        <em>&ldquo;Subscribe and start using premium features now&rdquo;</em> you
+        <strong>expressly request immediate performance of the contract</strong> and you
+        <strong>acknowledge that you will lose your right of withdrawal</strong> once the service has been
+        fully performed, in accordance with Article L.221-28 13&deg; of the same Code.
+    </p>
+    <p>
+        Outside of this case, refunds for subscriptions purchased through Google Play are handled by
+        Google according to its
+        <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">refund
+            policy</a>. Where mandatory consumer-protection law gives you a wider refund or withdrawal right,
+        that statutory right applies and prevails over this section.
+    </p>
+
+    <h3>4.6 Downgrade</h3>
+    <p>
+        If your subscription ends or is cancelled, your data remains in the App but features above the
+        free-tier limits become read-only or restricted until you renew. We will not delete trips or
+        expenses solely because you downgraded to the free tier.
+    </p>
+
+    <h2>5. AI-assisted bill scanning</h2>
+    <div class="warn">
+        <strong>Important.</strong> This feature uses an artificial intelligence model
+        (<strong>Google Gemini</strong>) to read your receipt. AI extraction can be wrong. Always check the
+        amount, currency and date before saving an expense. We are not responsible for incorrect splits
+        caused by misread receipts.
+    </div>
+    <p>
+        In accordance with Article 50 of Regulation (EU) 2024/1689 (the &ldquo;AI Act&rdquo;), we inform you
+        that bill scanning is an interaction with an AI system operated by a third party
+        (Google Ireland Ltd. / Google LLC). The AI returns structured data (total, currency, line items,
+        merchant); it does not make any decision on your behalf and the result is always editable before
+        you save it.
+    </p>
+    <p>
+        When you use the bill-scan feature, the photo you upload is processed by Google&rsquo;s Gemini API.
+        By using the feature, you confirm that you have the right to upload the image (e.g. it&rsquo;s your
+        own receipt or a receipt shared with you for that purpose) and that the image does not contain
+        content prohibited by section 6.
+    </p>
+
+    <h2>6. Acceptable use</h2>
+    <p>You agree not to:</p>
+    <ul>
+        <li>use Splitzy for any unlawful, fraudulent, or harmful purpose;</li>
+        <li>upload content that is illegal, defamatory, obscene, infringing, or that contains personal data
+            of third parties you are not authorised to share;
+        </li>
+        <li>upload images that contain payment-card numbers, government IDs, medical records, or any
+            sensitive personal data within the meaning of GDPR Article 9 — the App is not designed to
+            process such categories of data;
+        </li>
+        <li>attempt to break, reverse-engineer, scrape, overload, or otherwise abuse the App or its
+            back-end (Firebase, Gemini API, etc.);
+        </li>
+        <li>use the App to harass, spam, or impersonate other members of a trip;</li>
+        <li>circumvent subscription limits or any access control.</li>
+    </ul>
+    <p>
+        We may suspend or terminate access to the App if you breach these rules, without prejudice to any
+        other remedy available to us.
+    </p>
+
+    <h3>6.1 Reporting illegal content</h3>
+    <p>
+        If you believe that content shared within the App (for example a trip note, an uploaded receipt, or
+        a member name) is illegal or violates your rights, you can submit a notification to
+        <a href="mailto:splitzy.app.support@gmail.com">splitzy.app.support@gmail.com</a>, following the procedure
+        described in our
+        <a href="mentions-legales.html">Mentions Légales</a> (Article 6.I.5 of the LCEN and Article 16 of
+        the EU Digital Services Act). We will acknowledge receipt without undue delay and act with the
+        diligence required by law.
+    </p>
+
+    <h2>7. Your content &amp; the licence you grant us</h2>
+    <p>
+        You retain all rights to the content you enter (&ldquo;<strong>User Content</strong>&rdquo;):
+        trip names, expense descriptions, member names, notes, and bill images. You grant us a
+        non-exclusive, worldwide, royalty-free licence to host, store, copy, transmit and display your
+        User Content <em>solely</em> to operate the App for you and the trip members you have shared it
+        with, and to send bill images to the Gemini API for the sole purpose of extracting expense data.
+        This licence ends when you delete the content or your account, subject to the retention rules in
+        the Privacy Policy.
+    </p>
+    <p>
+        You confirm that you have all rights and permissions necessary to share User Content with the
+        members of your trips and with the processors listed in the Privacy Policy.
+    </p>
+
+    <h3>7.1 Inviting other people to a trip</h3>
+    <p>
+        When you add a member to a trip — by typing their name, sharing an invitation link, or any other
+        method — you act as an independent data controller for the personal data of that person within the
+        meaning of the GDPR. This means:
+    </p>
+    <ul>
+        <li>you must only add people who have agreed to participate in the trip;</li>
+        <li>you should only enter information about them that is strictly necessary to split expenses
+            (typically a name; nothing sensitive);
+        </li>
+        <li>you must be able to answer their questions about why their name appears in Splitzy, and to
+            remove them from the trip on request;
+        </li>
+        <li>if they ask Splitzy directly, we will inform them that you are the person who added them.</li>
+    </ul>
+    <p>
+        We are happy to provide reasonable assistance to you and to invited members, but we cannot
+        intervene in disputes between members about who should or should not be part of a trip.
+    </p>
+
+    <h2>8. Intellectual property</h2>
+    <p>
+        The App, including its source code, design, brand, logos, copy and UI, is owned by Yannick Badoual
+        and protected by intellectual-property laws. We grant you a personal, revocable, non-exclusive and
+        non-transferable licence to install and use the App on devices you own or control, for your
+        personal, non-commercial use. No other right is granted. Trademarks belong to their respective
+        owners.
+    </p>
+
+    <h2>9. Third-party services</h2>
+    <p>
+        Splitzy relies on third-party services (Google Firebase, Gemini API, Google Play Billing,
+        RevenueCat, Android). Your use of those services through the App is also subject to their own terms
+        and privacy notices. We are not responsible for outages, data loss, or pricing changes caused by
+        these third parties, but we&rsquo;ll do our best to communicate when something significant changes.
+    </p>
+
+    <h2>10. Availability &amp; changes to the App</h2>
+    <p>
+        We do our best to keep Splitzy available and bug-free, but we cannot guarantee uninterrupted or
+        error-free service. We may update, add, change, or remove features at any time. We may also stop
+        offering the App, in which case we will give you reasonable notice and a way to export your data
+        before any deletion.
+    </p>
+
+    <h2>11. Disclaimer of warranties</h2>
+    <p>
+        To the maximum extent permitted by law, the App is provided <strong>&ldquo;as is&rdquo;</strong> and
+        <strong>&ldquo;as available&rdquo;</strong>, without warranties of any kind, whether express or
+        implied, including warranties of merchantability, fitness for a particular purpose, accuracy of
+        calculations, or non-infringement. We do not warrant that AI extraction will be accurate, that
+        balances will match your real-world finances, or that the App will be compatible with every Android
+        device.
+    </p>
+    <p>
+        This section does not exclude any liability that cannot be excluded under French or EU consumer
+        law, including statutory warranties of conformity (<em>garantie légale de conformité</em>) and
+        against hidden defects (<em>garantie des vices cachés</em>).
+    </p>
+
+    <h2>12. Limitation of liability</h2>
+    <p>
+        To the maximum extent permitted by law, the Publisher shall not be liable for any indirect,
+        incidental, special, consequential or punitive damages, or for any loss of profits, data, goodwill
+        or business opportunity, arising out of or in connection with your use of the App, even if advised
+        of the possibility of such damages.
+    </p>
+    <p>
+        For direct damages, the Publisher&rsquo;s total liability in any twelve-month period shall not
+        exceed the greater of (i) the amount you paid for the App during that period, or (ii) fifty euros
+        (€50).
+    </p>
+    <p>
+        Nothing in these Terms limits liability for death or personal injury caused by negligence, fraud,
+        intentional misconduct, or any other liability that cannot be limited under applicable law.
+    </p>
+
+    <h2>13. Termination</h2>
+    <p>
+        You can stop using the App at any time and delete your account from the settings. We may suspend or
+        terminate your access if you breach these Terms or applicable law, or if continuing to provide the
+        App to you would expose us to legal or security risk. On termination, sections that by their
+        nature should survive (e.g. intellectual property, disclaimers, limitation of liability, governing
+        law) remain in effect.
+    </p>
+
+    <h2>14. Changes to these Terms</h2>
+    <p>
+        We may update these Terms from time to time. If a change is material, we will notify you in the
+        App before it takes effect. Continued use of the App after the change means you accept the updated
+        Terms. If you don&rsquo;t accept the change, you can stop using the App and delete your account.
+    </p>
+
+    <h2>15. Governing law &amp; dispute resolution</h2>
+    <p>
+        These Terms are governed by <strong>French law</strong>. The application of the UN Convention on
+        Contracts for the International Sale of Goods is excluded.
+    </p>
+    <p>
+        Before going to court, we encourage you to contact us at
+        <a href="mailto:splitzy.app.support@gmail.com">splitzy.app.support@gmail.com</a> so we can try to resolve any
+        dispute amicably.
+        If you are a consumer residing in the EU, you can also use the
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">EU Online Dispute
+            Resolution platform</a>.
+    </p>
+    <p>
+        Any dispute that cannot be settled amicably will be submitted to the competent French courts,
+        without prejudice to the mandatory consumer-protection rules of your country of residence, which
+        may give you the right to bring proceedings in your local courts.
+    </p>
+
+    <h2>16. Force majeure</h2>
+    <p>
+        Neither party is liable for any failure or delay in performing its obligations under these Terms
+        when caused by an event of force majeure within the meaning of Article 1218 of the French
+        <em>Code civil</em> — including, without limitation, natural disasters, fire, flood, war,
+        terrorism, riots, government action, large-scale internet or telecommunications outages, failures
+        of third-party hosting or AI providers, or any other event beyond the parties&rsquo; reasonable
+        control. The affected party will inform the other party as soon as reasonably possible and the
+        obligations will be suspended for the duration of the event.
+    </p>
+
+    <h2>17. Miscellaneous</h2>
+    <ul>
+        <li>If any clause of these Terms is held invalid, the remaining clauses stay in force.</li>
+        <li>Our failure to enforce a right is not a waiver of that right.</li>
+        <li>You may not assign these Terms without our prior written consent. We may assign them in
+            connection with a transfer of the App to another developer or entity, in which case we will
+            inform you.
+        </li>
+        <li>These Terms, together with the <a href="privacy-policy.html">Privacy Policy</a> and the
+            <a href="mentions-legales.html">Mentions Légales</a>, constitute the entire agreement between
+            you and us regarding the App.
+        </li>
+    </ul>
+
+    <h2>18. Contact</h2>
+    <p>
+        Questions about these Terms? Email
+        <a href="mailto:splitzy.app.support@gmail.com">splitzy.app.support@gmail.com</a>.
+    </p>
+
+    <footer>
+        &copy; 2026 Yannick Badoual. Splitzy is an independent project and is not affiliated with Google
+        or any other third party mentioned in these Terms.
+    </footer>
+</main>
+</body>
+</html>
