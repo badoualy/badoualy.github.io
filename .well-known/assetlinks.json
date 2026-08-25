@@ -6,7 +6,8 @@
       "package_name": "com.badoualy.splitzy",
       "sha256_cert_fingerprints": [
         "C0:F1:E8:F6:B8:EA:E3:2B:20:12:89:D3:B1:85:BA:A1:42:E1:CF:B3:0F:FE:59:1C:0E:EC:7C:5F:2A:37:8B:10",
-        "39:0B:B8:94:4F:01:86:1D:8B:7F:C8:BA:0E:B7:8B:E6:72:8D:D8:65:1B:D6:61:9B:DE:DB:4F:7D:B6:23:30:23"
+        "39:0B:B8:94:4F:01:86:1D:8B:7F:C8:BA:0E:B7:8B:E6:72:8D:D8:65:1B:D6:61:9B:DE:DB:4F:7D:B6:23:30:23",
+		"68:0C:8D:EE:80:D6:02:9E:0C:0A:C9:2A:D7:0C:65:EB:99:97:CD:18:AA:45:D7:41:B2:E9:68:C2:F8:A6:41:E7"
       ]
     }
   }
